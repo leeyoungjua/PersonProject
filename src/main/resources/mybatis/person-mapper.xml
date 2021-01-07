@@ -5,4 +5,8 @@
 	<insert id="insert">
 		insert into person values(personid_seq.nextval, #{name},#{contact})
 	</insert>
+	
+	<select id="personAll" resultType="kh.spring.dto.PersonDTO">
+      select * from person
+   </select>
 </mapper>
