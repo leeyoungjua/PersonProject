@@ -9,7 +9,7 @@
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 </head>
 <body>
-
+	수정했어요.
 	<a href='input.person'>input</a>
 	<a href='/person/list.person'>PersonList</a>
 
