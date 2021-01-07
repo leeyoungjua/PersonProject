@@ -3,7 +3,7 @@
 <mapper namespace="Person">
 
 	<insert id="insert">
-		insert into person values(#{id},#{name},#{contact})
+		insert into person values(personid_seq.nextval,#{name},#{contact})
 	</insert>
 
 
