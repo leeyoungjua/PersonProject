@@ -4,15 +4,8 @@ public class PersonDTO {
 	private int id;
 	private String name;
 	private String contact;
-	public PersonDTO() {
-		super();
-	}
-	public PersonDTO(int id, String name, String contact) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.contact = contact;
-	}
+
+
 	public int getId() {
 		return id;
 	}
@@ -31,4 +24,16 @@ public class PersonDTO {
 	public void setContact(String contact) {
 		this.contact = contact;
 	}
+	public PersonDTO(int id, String name, String contact) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.contact = contact;
+	}
+	public PersonDTO() {
+		super();
+	}
+	
+	
+
 }
