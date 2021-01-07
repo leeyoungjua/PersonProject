@@ -12,8 +12,6 @@
 
 	<a href='input.person'>input</a>
 	<a href='/person/list.person'>PersonList</a>
-	
-	
 
 </body>
 </html>
