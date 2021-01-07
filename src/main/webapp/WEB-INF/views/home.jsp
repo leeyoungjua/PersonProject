@@ -1,16 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Home</title>
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 </head>
 <body>
 
-	<a href='input.psn'>input</a>
-	<a href='output.psn'>PersonList</a>
+	<a href='input.person'>input</a>
+	<a href='/person/list.person'>PersonList</a>
 	
 	
 

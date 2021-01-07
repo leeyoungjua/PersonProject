@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="Person">
-<<<<<<< HEAD
 	
 	<insert id="insert">
 		insert into person values(personid_seq.nextval, #{name},#{contact})
@@ -10,18 +9,5 @@
 	<select id="personAll" resultType="kh.spring.dto.PersonDTO">
       select * from person
    </select>
-=======
 
-	<insert id="insert">
-		insert into person values(personid_seq.nextval,#{name},#{contact})
-	</insert>
-
-
-	<select id="personAll" resultType="kh.spring.dto.PersonDTO">
-		select * from person
-	</select>
-
-
-
->>>>>>> fb0577f180a55eb46d798ee01f5c268ded0b4128
 </mapper>

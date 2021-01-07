@@ -4,7 +4,8 @@ public class PersonDTO {
 	private int id;
 	private String name;
 	private String contact;
-	
+
+
 	public int getId() {
 		return id;
 	}
@@ -31,7 +32,6 @@ public class PersonDTO {
 	}
 	public PersonDTO() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	
 	

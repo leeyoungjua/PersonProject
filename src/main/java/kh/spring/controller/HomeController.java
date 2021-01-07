@@ -9,9 +9,8 @@ public class HomeController {
 	@RequestMapping( "/")
 	public String home() {return "home";}
 	
-	@RequestMapping("input.psn")
+	@RequestMapping("input.person")
 	public String toInput() {
 		return "input";
 	}
-
 }

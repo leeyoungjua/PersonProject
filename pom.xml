@@ -46,10 +46,8 @@
 			<version>${org.aspectj-version}</version>
 		</dependency>	
 		
-<<<<<<< HEAD
-=======
+
 		
->>>>>>> fb0577f180a55eb46d798ee01f5c268ded0b4128
 		<!-- Oracle OJDBC6 -->
 		<dependency>
 			<groupId>oracle</groupId>
@@ -83,10 +81,7 @@
 			<version>1.3.2</version>
 		</dependency>
 		
-<<<<<<< HEAD
 		
-=======
->>>>>>> fb0577f180a55eb46d798ee01f5c268ded0b4128
 		<!-- Logging -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
