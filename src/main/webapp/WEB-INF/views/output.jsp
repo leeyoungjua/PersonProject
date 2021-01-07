@@ -10,7 +10,7 @@
 <body>
 	<table border=1>
 		<tr>
-			<th>Person Information
+			<th colspan=3>Person Information
 		</tr>
 		<tr>
 			<th>ID
@@ -19,13 +19,13 @@
 		</tr>
 		<c:forEach var="i" items="${list}">
 			<tr>
-				<td>{i.id}</td>
-				<td>{i.name}</td>
-				<td>{i.contact}</td>
+				<td>${i.id}</td>
+				<td>${i.name}</td>
+				<td>${i.contact}</td>
 			</tr>
 		</c:forEach>
 		<tr>
-			<td><button id="btn_return">Return</button></td>
+			<td colspan=3 align="center"><button id="btn_return">Return</button></td>
 		</tr>
 	</table>
 	<script>
